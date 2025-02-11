@@ -5,7 +5,7 @@ import "./Cards.css"
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these epic destinations!</h1>
+      <h1>Check out my projects</h1>
       <div className="cards_container">
         <div className="cards_wrapper">
             <ul className="cards_items">

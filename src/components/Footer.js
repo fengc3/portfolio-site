@@ -20,15 +20,19 @@ function Footer() {
             </form>
         </div>
       </section>
-      <div className="footer-links">
-        <div className="footer-link-wrapper">
-            <div className="footer-link-items">
-                <h2>About Us</h2>
-                <Link to="/sign-up">How it works</Link>
-                <Link to="/">Testimonials</Link>
-            </div>
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <small className="website-rights">Copyright © 2025 Carl Feng</small>
+          <div className="social-icons">
+            <Link className="social-icon-link-linkedin" to="https://www.linkedin.com/in/carl-feng-a372b72ba/" target="_blank">
+              <i className="fab fa-linkedin" />
+            </Link>
+            <Link className="social-icon-link-github" to="https://github.com/fengc3" target="_blank">
+              <i className="fab fa-github" />
+            </Link>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   )
 }
