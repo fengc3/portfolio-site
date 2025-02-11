@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import "./Navbar.css"
 import { Button } from "./Button";
 
-function Navbar() {
+function Navbar({jumpToSection}) {
     const [click, setClick] = useState(false);
     const[button, setButton] = useState(true);
     const handleClick = () => setClick(!click);
@@ -27,7 +27,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link to="/" className="navbar-logo" onClick={()=>{closeMobileMenu(); window.scrollTo({top: 0, behavior: "smooth"})}}>
                         Carl Feng
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -40,13 +40,13 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                                Services
+                            <Link className="nav-links" onClick={() => {closeMobileMenu(); jumpToSection(".projects")}}>
+                                Projects
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
-                                Products
+                            <Link className="nav-links" onClick={() => {closeMobileMenu(); jumpToSection(".footer-container")}}>
+                                Contact Me
                             </Link>
                         </li>
                         <li className="nav-item">
