@@ -46,16 +46,16 @@ function Navbar({jumpToSection}) {
                         </li>
                         <li className="nav-item">
                             <Link className="nav-links" onClick={() => {closeMobileMenu(); jumpToSection(".footer-container")}}>
-                                Contact Me
+                                Interests
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-                                Sign Up
+                                Contact Me
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+                    {button && <Button buttonStyle="btn--outline">Contact</Button>}
                 </div>
             </nav>
         </>

@@ -1,5 +1,6 @@
 .hero-container {
-    background: url("../public/images/img-home.jpg") center center/cover no-repeat;
+    /* background: url("../public/images/img-home.jpg") center center/cover no-repeat; */
+    background: #3d3d3d;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -13,7 +14,7 @@
 .hero-container > h1 {
     color: #fff;
     font-size: 100px;
-    margin-top: -100px;
+    margin-top: -150px;
 }
 
 .hero-container > p {
@@ -21,6 +22,23 @@
     color: #fff;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.portrait {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding-bottom: 250px;
+}
+  
+.portrait img {
+    max-width: 35%;
+    min-width: 350px;
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid #fff;
 }
 
 .hero-btns {
@@ -38,17 +56,20 @@
 @media screen and (max-width: 960px) {
     .hero-container > h1 {
         font-size: 70px;
-        margin-top: -150px;
+        margin-top: -180px;
+    }
+    img {
+        min-width: 300px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .hero-container > h1 {
         font-size: 50px;
-        margin-top: -100px;
+        margin-top: -180px;
     }
     .hero-container > p {
-        font-size: 30px;
+        font-size: 27px;
     }
     .btn-mobile {
         display: block;
