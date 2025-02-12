@@ -11,7 +11,7 @@ function App() {
   const jumpToSection = (section) => {const element = document.querySelector(section);
   if (element) {
     element.scrollIntoView({ behavior: 'smooth' });
-    const offset = 80
+    const offset = 79
     const elementPosition = element.getBoundingClientRect().top + window.scrollY;
           window.scrollTo({
             top: elementPosition - offset, // Apply the offset

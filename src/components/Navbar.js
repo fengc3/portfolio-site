@@ -45,7 +45,7 @@ function Navbar({jumpToSection}) {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-links" onClick={() => {closeMobileMenu(); jumpToSection(".footer-container")}}>
+                            <Link className="nav-links" onClick={() => {closeMobileMenu(); jumpToSection(".hobby-container")}}>
                                 Interests
                             </Link>
                         </li>

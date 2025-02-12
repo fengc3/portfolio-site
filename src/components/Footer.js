@@ -8,15 +8,15 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-            Join the Adventure newsletter to receieve our best vacation deals!
+            Contact me!
         </p>
         <p className="footer-subscription-text">
-            You can unsubscribe at any time.
+            Let's do lunch.
         </p>
         <div className="input-areas">
             <form>
                 <input type="email" name="email" placeholder="Your Email" className="footer-input" />
-                <Button buttonStyle="btn--outline">Subscribe</Button>
+                <Button buttonStyle="btn--outline">E-mail</Button>
             </form>
         </div>
       </section>
