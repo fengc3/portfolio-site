@@ -18,7 +18,7 @@
     max-width: 1500px;
 }
   
-.navbar-logo {
+.navbar-name {
     color: #fff;
     justify-self: start;
     margin-left: 20px;
@@ -114,9 +114,9 @@
         border-radius: 0;
     }
   
-    .navbar-logo {
+    .navbar-name {
         position: absolute;
-        top: 0;
+        top: -3%;
         left: 0;
         transform: translate(25%, 50%);
     }

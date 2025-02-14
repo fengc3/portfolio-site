@@ -12,6 +12,10 @@
     /* padding-right: 500px; */
 }
 
+#interests {
+    scroll-margin-top: 80px;
+}
+
 .drawing-gallery {
     margin: 0;
     display: flex;

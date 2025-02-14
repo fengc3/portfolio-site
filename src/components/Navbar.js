@@ -27,7 +27,7 @@ function Navbar({jumpToSection}) {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={()=>{closeMobileMenu(); window.scrollTo({top: 0, behavior: "smooth"})}}>
+                    <Link to="/" className="navbar-name" onClick={()=>{closeMobileMenu(); window.scrollTo({top: 0, behavior: "smooth"})}}>
                         Carl Feng
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -35,27 +35,27 @@ function Navbar({jumpToSection}) {
                     </div>
                     <ul className={click? "nav-menu active" : "nav-menu"}>
                         <li className="nav-item">
-                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="/" className="nav-links" onClick={() => {closeMobileMenu(); window.scrollTo({top: 0, behavior: "smooth"})}}>
                                 Home
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-links" onClick={() => {closeMobileMenu(); jumpToSection(".projects")}}>
+                            <a href="#projects" className="nav-links" onClick={() => {closeMobileMenu();}}>
                                 Projects
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-links" onClick={() => {closeMobileMenu(); jumpToSection(".hobby-container")}}>
+                            <a href="#interests" className="nav-links" onClick={closeMobileMenu}>
                                 Interests
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
+                            <a href="#contacts" className="nav-links-mobile" onClick={closeMobileMenu}>
                                 Contact Me
-                            </Link>
+                            </a>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle="btn--outline">Contact</Button>}
+                    {button && <Button linkTo="#contacts" buttonStyle="btn--outline">Contact</Button>}
                 </div>
             </nav>
         </>

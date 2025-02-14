@@ -13,7 +13,7 @@ function HeroSection() {
       <h1>Hey, I'm Carl</h1>
       <p>I'm a computer science student with an interest in web dev, video games, and illustration</p>
       <div className="hero-btns">
-      <Button className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
+      <Button linkTo="https://www.google.com" className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
             Download Resume
         </Button>
         <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">

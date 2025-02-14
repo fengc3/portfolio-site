@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="contacts">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
             Contact me!

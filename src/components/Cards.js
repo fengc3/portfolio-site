@@ -5,14 +5,14 @@ import construction from "../public/images/under construction.png"
 
 function Cards() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1>Check out my projects</h1>
       <div className="cards_container">
         <div className="cards_wrapper">
             <ul className="cards_items">
                 <CardItem 
                 src={construction}
-                text="Work in Progress... this project is currently under supervision by Safety" 
+                text="Work in Progress... This project is currently under the supervision of Safety." 
                 label="Coming soon"
                 path="/" 
                 />

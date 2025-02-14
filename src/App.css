@@ -5,10 +5,7 @@
     font-family: 'PT Sans', sans-serif;
   }
   
-  .home,
-  .services,
-  .products,
-  .sign-up {
+  .home {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -16,26 +13,12 @@
     font-size: 3rem;
   }
   
-  .services {
-    background-image: url('../public/images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+  html {
+    scroll-behavior: smooth;
   }
   
-  .products {
-    background-image: url('../public/images/img-1.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .sign-up {
-    background-image: url('../public/images/img-8.jpg');
+  .new-page {
+    background-image: url(/);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
