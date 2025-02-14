@@ -13,12 +13,12 @@
 
 .hero-container > h1 {
     color: #fff;
-    font-size: 100px;
+    font-size: 80px;
     margin-top: -150px;
 }
 
 .hero-container > p {
-    margin-top: 8px;
+    margin-top: 15px;
     color: #fff;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -55,8 +55,13 @@
 
 @media screen and (max-width: 960px) {
     .hero-container > h1 {
-        font-size: 70px;
+        font-size: 60px;
         margin-top: -180px;
+    }
+    .hero-container > p {
+        margin-top: 10px;
+        color: #fff;
+        font-size: 27px;
     }
     img {
         min-width: 300px;
@@ -69,7 +74,7 @@
         margin-top: -180px;
     }
     .hero-container > p {
-        font-size: 27px;
+        font-size: 23px;
     }
     .btn-mobile {
         display: block;

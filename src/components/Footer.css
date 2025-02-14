@@ -76,11 +76,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50px;
+    width: 110px;
 }
 
 .social-icons i {
     color: #fff;
+    scale: 200%;
 }
 
 .website-rights {

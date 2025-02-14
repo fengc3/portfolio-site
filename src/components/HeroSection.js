@@ -16,7 +16,7 @@ function HeroSection() {
       <Button linkTo="https://www.google.com" className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
             Download Resume
         </Button>
-        <Button className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
+        <Button linkTo="#projects" className="btns" buttonStyle="btn--outline" buttonSize="btn--large">
             Projects
         </Button>
       </div>

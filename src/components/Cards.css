@@ -36,6 +36,10 @@
     border-radius: 10px;
   }
   
+  .cards_item:hover {
+    transform: translateY(-3px);
+  }
+  
   .cards_item_link {
     display: flex;
     flex-flow: column;
@@ -92,7 +96,8 @@
   }
   
   .cards_item_img:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.04); */
+    filter: brightness(0.95);
   }
   
   .cards_item_info {
