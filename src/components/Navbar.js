@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import React, { useState, useEffect } from 'react'
 import "./Navbar.css"
-// import { Button } from "./Button";
+import { Button } from "./Button";
 
 function Navbar({jumpToSection}) {
     const [click, setClick] = useState(false);
@@ -55,7 +55,7 @@ function Navbar({jumpToSection}) {
                             </a>
                         </li>
                     </ul>
-                    {/* {button && <Button linkTo="#contacts" buttonStyle="btn--outline">Contact</Button>} */}
+                    {button && <Button linkTo="#contacts" buttonStyle="btn--outline">Contact</Button>}
                 </div>
             </nav>
         </>
