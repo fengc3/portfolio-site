@@ -1,27 +1,27 @@
 import { Link } from "react-router-dom"
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import "./Navbar.css"
-import { Button } from "./Button";
+// import { Button } from "./Button";
 
-function Navbar({jumpToSection}) {
+function Navbar() {
     const [click, setClick] = useState(false);
-    const[button, setButton] = useState(true);
+    // const[button, setButton] = useState(true);
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
-    const showButton = () => {
-        if(window.innerWidth <= 960) {
-            setButton(false);
-        } else {
-            setButton(true);
-        }
-    };
+    // const showButton = () => {
+    //     if(window.innerWidth <= 960) {
+    //         setButton(false);
+    //     } else {
+    //         setButton(true);
+    //     }
+    // };
 
-    useEffect(() => {
-        showButton()
-    }, []);
+    // useEffect(() => {
+    //     showButton()
+    // }, []);
 
-    window.addEventListener("resize", showButton)
+    // window.addEventListener("resize", showButton)
 
     return (
         <>
@@ -55,7 +55,7 @@ function Navbar({jumpToSection}) {
                             </a>
                         </li>
                     </ul>
-                    {button && <Button linkTo="#contacts" buttonStyle="btn--outline">Contact</Button>}
+                    {/* {button && <Button linkTo="#contacts" buttonStyle="btn--outline">Contact</Button>} */}
                 </div>
             </nav>
         </>
