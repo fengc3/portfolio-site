@@ -14,7 +14,7 @@
     background-color: var(--primary);
     color: #242424;
     border: 1px solid var(--primary);
-    border-radius: 10px
+    border-radius: 7px
 }
 
 .btn--outline {
@@ -22,8 +22,8 @@
     color: #fff;
     padding: 8px 20px;
     border: 1px solid var(--primary);
-    transition: all 0.3 ease-out;
-    border-radius: 10px
+    transition: all 270ms ease-out;
+    border-radius: 7px
 }
 
 .btn--medium {
@@ -40,5 +40,5 @@
 .btn--large:hover {
     background: #fff;
     color: #242424;
-    transition: all 0.3 ease-out;
+    transition: all 300ms ease-out;
 }

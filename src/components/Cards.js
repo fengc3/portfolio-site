@@ -6,7 +6,7 @@ import construction from "../public/images/under construction.png"
 function Cards() {
   return (
     <div className="projects" id="projects">
-      <h1>Check out my projects</h1>
+      <h1>My Projects</h1>
       <div className="cards_container">
         <div className="cards_wrapper">
             <ul className="cards_items">

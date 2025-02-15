@@ -1,6 +1,6 @@
 .hero-container {
     /* background: url("../public/images/img-home.jpg") center center/cover no-repeat; */
-    background: #3d3d3d;
+    background: #313131;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -49,8 +49,18 @@
     margin: 6px;
 }
 
-.fa-play-circle {
-    margin-left: 4px;
+.hero-socials {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.hero-socials i {
+    color: #fff;
+    scale: 200%;
+    margin: 20px;
 }
 
 @media screen and (max-width: 960px) {

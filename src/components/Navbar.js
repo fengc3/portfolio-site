@@ -46,7 +46,7 @@ function Navbar({jumpToSection}) {
                         </li>
                         <li className="nav-item">
                             <a href="#interests" className="nav-links" onClick={closeMobileMenu}>
-                                Interests
+                                Hobbies
                             </a>
                         </li>
                         <li className="nav-item">
@@ -55,7 +55,7 @@ function Navbar({jumpToSection}) {
                             </a>
                         </li>
                     </ul>
-                    {button && <Button linkTo="#contacts" buttonStyle="btn--outline">Contact</Button>}
+                    {/* {button && <Button linkTo="#contacts" buttonStyle="btn--outline">Contact</Button>} */}
                 </div>
             </nav>
         </>
