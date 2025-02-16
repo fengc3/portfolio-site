@@ -10,7 +10,7 @@ function Interests() {
   return (
     <div className="hobby-container" id="interests">
       <h1>My Drawings</h1>
-      <div className="drawing-gallery">
+      {/* <div className="drawing-gallery"> */}
         <div className="image-container">
             <img src={ellen} alt="" data-image-id="1" />
             <img src={bloom} alt="" data-image-id="2" /> 
@@ -20,7 +20,7 @@ function Interests() {
             <img src={"/"} alt="" data-image-id="6" />
             <img src={"/"} alt="" data-image-id="7" /> */}
         </div>
-      </div>
+      {/* </div> */}
     </div>
   )
 }

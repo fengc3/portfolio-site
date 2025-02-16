@@ -1,7 +1,6 @@
 .hobby-container {
     border-top: black solid 5px;
     background: #313131;;
-    height: 110vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,42 +19,40 @@
     scroll-margin-top: 80px;
 }
 
-.drawing-gallery {
+/* .drawing-gallery {
     margin: 20px;
     margin-top: 40px;
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
-    /* text-align: center; */
     height: 100vh;
-    /* background-color: transparent; */
-    overflow: hidden;
-}
+    background-color: transparent;
+    overflow: visible;
+} */
 
 .image-container {
+    margin: 20px;
+    margin-top: 40px;
     display: flex;
     /* flex: 1; */
     width: 100%;
-    height: 75vh;
+    height: auto;
     /* transition: transform 0.7s; */
     align-content: center;
     /* align-items: center; */
     flex-direction: row;
     justify-content: center;
-    /* -webkit-column-count: 3;
-    -moz-column-count: 3; 
-    column-count: 3; */
-    /* column-width: 33%; */
+    flex-wrap: wrap;
+    overflow: visible;
 }
 
 .image-container > img {
-    position: relative;
+    /* position: relative; */
     /* flex-direction: column; */
     object-fit: cover;
-    width: 350px;
-    height: auto;
+    max-width: 350px;
+    height: 80vh;
     display: block;
     flex: auto;
     justify-content: center;
