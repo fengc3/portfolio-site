@@ -12,13 +12,13 @@ function Cards() {
             <ul className="cards_items">
                 <CardItem 
                 src={construction}
-                text="Work in Progress... This project is currently under the supervision of Safety." 
-                label="Coming soon"
+                text="INTER-KNOT - A social media website, inspired by Zenless Zone Zero" 
+                label="Next.js | Tailwind CSS"
                 path="/" 
                 />
                 <CardItem 
                 src={construction}
-                text="Work in Progress..." 
+                text="Work in Progress... This project is currently under the supervision of Safety." 
                 label="Coming soon"
                 path="/" 
                 />

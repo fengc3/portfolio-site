@@ -13,7 +13,7 @@ function HeroSection() {
         <img src= {portrait} alt='portrait'></img>
       </div>
       <h1>Hey, I'm Carl</h1>
-      <p>I'm a computer science student with an interest in web dev, video games, and illustration</p>
+      <p>I'm a computer science student with an interest in front-end development, video games, and illustration</p>
       <div className="hero-btns">
         <Button linkTo={resume} className="btns" buttonStyle="btn--primary" buttonSize="btn--large">
           Download Resume
@@ -26,7 +26,7 @@ function HeroSection() {
         <Link className="social-icon-link-email" to="mailto:carlfeng3@gmail.com" target="_blank">
           <i className="fa fa-envelope" />
         </Link>
-        <Link className="social-icon-link-linkedin" to="https://www.linkedin.com/in/carl-feng-a372b72ba/" target="_blank">
+        <Link className="social-icon-link-linkedin" to="https://www.linkedin.com/in/carlfeng/" target="_blank">
           <i className="fab fa-linkedin" />
         </Link>
         <Link className="social-icon-link-github" to="https://github.com/fengc3" target="_blank">

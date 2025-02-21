@@ -27,7 +27,7 @@ function Footer() {
           <Link className="social-icon-link-email" to="mailto:carlfeng3@gmail.com" target="_blank">
               <i className="fa fa-envelope" />
             </Link>
-            <Link className="social-icon-link-linkedin" to="https://www.linkedin.com/in/carl-feng-a372b72ba/" target="_blank">
+            <Link className="social-icon-link-linkedin" to="https://www.linkedin.com/in/carlfeng/" target="_blank">
               <i className="fab fa-linkedin" />
             </Link>
             <Link className="social-icon-link-github" to="https://github.com/fengc3" target="_blank">
