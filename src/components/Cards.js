@@ -2,6 +2,7 @@ import React from 'react'
 import CardItem from './CardItem'
 import "./Cards.css"
 import construction from "../public/images/under construction.png" 
+import interknot from "../public/images/interknot.png"
 
 function Cards() {
   return (
@@ -11,10 +12,10 @@ function Cards() {
         <div className="cards_wrapper">
             <ul className="cards_items">
                 <CardItem 
-                src={construction}
+                src={interknot}
                 text="INTER-KNOT - A social media website, inspired by Zenless Zone Zero" 
                 label="Next.js | Tailwind CSS"
-                path="/" 
+                path="https://inter-knot.netlify.app/" 
                 />
                 <CardItem 
                 src={construction}
