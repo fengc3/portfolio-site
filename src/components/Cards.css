@@ -2,6 +2,7 @@
   /* border-top: rgb(27, 90, 184) solid 5px; */
   padding: 4rem;
   background: #eeeeee;
+  border-bottom: solid 3px;
 }
 
 #projects {
@@ -101,7 +102,7 @@
 
 .cards_item_img:hover {
   /* transform: scale(1.04); */
-  filter: brightness(0.95);
+  filter: brightness(0.90);
 }
 
 .cards_item_info {
@@ -113,6 +114,19 @@
   font-size: 18px;
   line-height: 24px;
   text-align: center;
+}
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+      transform: translateX(-20%);
+      scale: 0.9;
+  }
+  100% {
+      opacity: 1;
+      transform: translateX(0px);
+      scale: 1;
+  }
 }
 
 @media only screen and (min-width: 1200px) {

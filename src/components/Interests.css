@@ -1,5 +1,4 @@
 .hobby-container {
-    border-top: black solid 5px;
     background: #313131;;
     width: 100%;
     display: flex;
@@ -50,6 +49,18 @@
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017)); */
     margin: 7px;
     border-radius: 10px;
+}
+
+img:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+img:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+img:nth-child(4) {
+    transition-delay: 600ms;
 }
 
 .image-container img:hover {

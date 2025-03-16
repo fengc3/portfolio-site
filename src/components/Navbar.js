@@ -45,15 +45,20 @@ function Navbar() {
                             </a>
                         </li>
                         <li className="nav-item">
+                            <a href="#skills" className="nav-links" onClick={() => {closeMobileMenu();}}>
+                                Skills
+                            </a>
+                        </li>
+                        <li className="nav-item">
                             <a href="#interests" className="nav-links" onClick={closeMobileMenu}>
                                 Hobbies
                             </a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="#contacts" className="nav-links-mobile" onClick={closeMobileMenu}>
                                 Contact Me
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                     {/* {button && <Button linkTo="#contacts" buttonStyle="btn--outline">Contact</Button>} */}
                 </div>

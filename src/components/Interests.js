@@ -12,13 +12,13 @@ function Interests() {
       <h1>My Drawings</h1>
       {/* <div className="drawing-gallery"> */}
         <div className="image-container">
-            <img src={ellen} alt="" data-image-id="1" />
-            <img src={bloom} alt="" data-image-id="2" /> 
-            <img src={haru} alt="" data-image-id="3" />
-            <img src={jia} alt="" data-image-id="4" />
-            {/* <img src={"/"} alt="" data-image-id="5"/>
-            <img src={"/"} alt="" data-image-id="6" />
-            <img src={"/"} alt="" data-image-id="7" /> */}
+          <img src={ellen} className='hidden' alt="" data-image-id="1" />
+          <img src={bloom} className='hidden' alt="" data-image-id="2" /> 
+          <img src={haru} className='hidden' alt="" data-image-id="3" />
+          <img src={jia} className='hidden' alt="" data-image-id="4" />
+          {/* <img src={"/"} alt="" data-image-id="5"/>
+          <img src={"/"} alt="" data-image-id="6" />
+          <img src={"/"} alt="" data-image-id="7" /> */}
         </div>
       {/* </div> */}
     </div>

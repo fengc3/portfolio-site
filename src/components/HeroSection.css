@@ -15,6 +15,7 @@
     color: #fff;
     font-size: 80px;
     margin-top: -150px;
+    animation: fade-up 0.5s;
 }
 
 .hero-container > p {
@@ -23,6 +24,7 @@
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    animation: fade-up 0.5s 0.4s backwards;
 }
 
 .portrait {
@@ -31,6 +33,7 @@
     align-items: center;
     height: 500px;
     padding-bottom: 250px;
+    user-select: none;
 }
   
 .portrait img {
@@ -39,10 +42,13 @@
     height: auto;
     border-radius: 100%;
     border: 5px solid #fff;
+    animation: fade-up 0.5s;
+    user-select: none;
 }
 
 .hero-btns {
     margin-top: 32px;
+    animation: fade-up 0.5s 0.4s backwards;
 }
 
 .hero-btns .btn {
@@ -55,6 +61,7 @@
     justify-content: center;
     align-items: center;
     width: 500px;
+    animation: fade-up 0.5s 0.5s backwards;
 }
 
 .hero-socials i {
@@ -62,6 +69,33 @@
     scale: 200%;
     margin: 20px;
 }
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+        scale: 0.92;
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+        scale: 1;
+    }
+}
+
+CardItem:nth-child(2) {
+    transition-delay: 200ms;
+}
+CardItem:nth-child(3) {
+    transition-delay: 400ms;
+}
+CardItem:nth-child(4) {
+    transition-delay: 600ms;
+}
+CardItem:nth-child(5) {
+    transition-delay: 600ms;
+}
+
 
 @media screen and (max-width: 960px) {
     .hero-container > h1 {
