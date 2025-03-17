@@ -1,6 +1,6 @@
 .skills-container {
   background: #eeeeee;
-  height: 50vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -35,6 +35,7 @@
   flex-direction: column;
   padding: 20px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .skills-container h1 {
