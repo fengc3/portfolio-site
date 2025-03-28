@@ -30,6 +30,7 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    text-wrap: nowrap;
 }
   
 .fa-typo3 {
